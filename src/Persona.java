@@ -4,9 +4,13 @@ public class Persona {
     private String apellido;
     private int edad;
 
+    // Constructores
+    // Vacío
     public Persona() {
 
     }
+
+    // Con parámetros
     public Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -50,7 +54,7 @@ public class Persona {
 
     // Métodos
     public void saludar() {
-        System.out.printf("Hola, mi nombre es %s %s y tengo %d años.\n", this.nombre, this.apellido, this.edad);
+        System.out.printf("Hola, mi nombre es %s %s y tengo %d años.\n", this.apellido, this.nombre, this.edad);
     }
 }
 
