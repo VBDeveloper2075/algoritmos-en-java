@@ -1,29 +1,11 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+EJERCICIO RESERVA ASIENTOS
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+Suponer un sistema de reserva de asientos para un anfiteatro. El teatro cuenta con 10 filas de 10 asientos cada una. Se necesita desarrollar un sitema (sin uso de base de datos, únicamente manejo de datos de forma lógica que permita llevar a cabo lo siguiente:
+1. Cargarle el "mapa" de las filas y asientos del teatro. Indicando con una "x" los asientos que ya se encuentran reservados y con una "L" los asientos que se encuentran libres.al iniciar el programa todos los asientos deben estar libres.
+2. Manejar la reserva de asientos contemplando que un asiento SOLO PUEDE SER RESERVADO si se encuentra en estado "L", en caso de que esté en estado "x" debera permitir al comprador elegir otro asiento. Si se encuentra en estado "L", deberá pasar automáticamente a estado "x".
+3. Para finalizar el programa se deberá ingresar un valor en particular. Contemplar que no existe una cantidad exacta de veces que el programa se pueda ejecutar.
+4. Contemplar que SOLO EXISTEN 10 FILAS Y 10 ASIENTOS POR FILA. No se permite "sobreventa" de asientos.
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+consideraciones: No es necesario implementar IGU ni BD. Se pide 100% lógica de programación.
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+extra: en caso de que un cliente solicite visualizar cuáles son los asientos libres, el sistema debe permitir mostrar de forma gráfica el mapa de asientos. NO UTILIZAR IGU para este caso. Utilizar UNICAMENTE logica y la salida por consola.

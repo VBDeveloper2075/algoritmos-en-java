@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,3 +12,4 @@ public class Main {
         persona1.setNombre("Juan Carlos");
     }
 }
+
